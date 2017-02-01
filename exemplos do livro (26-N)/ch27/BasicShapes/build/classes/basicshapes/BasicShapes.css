@@ -1,0 +1,36 @@
+Line, Rectangle, Circle, Ellipse, Arc {
+    -fx-stroke-width: 10;  
+}
+
+#line1 {
+    -fx-stroke: red;
+}
+
+#line2 {
+    -fx-stroke: rgba(0%, 50%, 0%, 0.5);
+    -fx-stroke-line-cap: round;
+}
+
+Rectangle {
+   -fx-stroke: red;
+   -fx-arc-width: 50;
+   -fx-arc-height: 50;
+   -fx-fill: yellow;
+}
+
+Circle {
+   -fx-stroke: blue;
+   -fx-fill: radial-gradient(center 50% 50%, radius 60%, white, red);
+}
+
+Ellipse {
+   -fx-stroke: green;
+   -fx-fill: image-pattern("basicshapes/yellowflowers.png");
+}
+
+Arc {
+   -fx-stroke: purple;
+   -fx-fill: linear-gradient(to right, cyan, white);
+}
+
+
